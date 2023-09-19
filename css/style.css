@@ -271,7 +271,7 @@ section {
 .service {
     padding: 32px;
     background-color: #fff;
-    box-shadow: var(--shadow);
+    /* box-shadow: var(--shadow); */
 }
 
 .service h5 {
@@ -378,8 +378,9 @@ section {
 
 #reviews {
 
-    background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../img/bg_banner1.jpg), #082032;
-    ;
+    /* background: linear-gradient(-90deg, rgba(8, 32, 50, 0.8), rgba(8, 32, 50, 0.8)), url(../img/bg_banner1.jpg), #082032;
+    ; */
+    background-color: white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -414,14 +415,14 @@ section {
 .review h5 {
     margin-top: 16px;
     margin-bottom: 4px;
-    color: #fff;
+    color: black;
 }
 
 .review h3 {
     margin-top: 26px;
     margin-bottom: 26px;
     font-size: 22px;
-    color: #fff;
+    color: black;
     font-weight: 400;
     line-height: 1.7;
 }
