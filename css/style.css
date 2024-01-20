@@ -95,11 +95,18 @@ section {
 .owl-dot.active span {
     background-color: var(--brand) !important;
 }
-
-
+.cpSet{
+    border: 1px solid #e7dfdf;
+    padding: 10px;
+    border-radius: 4px;
+}
+.cpSet .font-monospace{
+    font-weight: 600;
+    font-size: larger;
+}
 /* slide */
 .slide {
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -128,6 +135,7 @@ section {
 /* navbar */
 .top-nav {
     background-color: var(--brand);
+        background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -149,12 +157,12 @@ section {
 }
 
 .navbar-logo {
-    width: 191px;
+    width: 180px;
     height: auto;
     padding: 4px;
     background: #01A0E2;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+/*    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;*/
 }
 
 .navbar-footer-logo {
@@ -530,4 +538,9 @@ input.form-control {
 .form-control:focus {
     box-shadow: none;
     border-color: var(--brand);
+}
+@media (min-width: 992px)
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
 }
