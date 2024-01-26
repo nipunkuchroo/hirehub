@@ -711,6 +711,9 @@
                   <form
                     class="p-lg-3 col-12 row g-2"
                     style="padding-top: 0px !important"
+                    action="mailto:nipunkuchroo2007@gmail.com"
+                    method="post"
+                    enctype="text/plain"
                   >
                     <div>
                       <h1>Get in touch</h1>
@@ -720,20 +723,22 @@
                         >First name</label
                       >
                       <input
+                        name="firstname"
                         type="text"
                         class="form-control"
                         placeholder="first name"
-                        id="userName"
+                        id="firstName"
                         aria-describedby="emailHelp"
                       />
                     </div>
                     <div class="col-lg-6">
                       <label for="userName" class="form-label">Last name</label>
                       <input
+                        name="lastname"
                         type="text"
                         class="form-control"
                         placeholder="last name"
-                        id="userName"
+                        id="lastName"
                         aria-describedby="emailHelp"
                       />
                     </div>
@@ -742,10 +747,11 @@
                         >Email address</label
                       >
                       <input
+                        name="email"
                         type="email"
                         class="form-control"
                         placeholder="email@example.com"
-                        id="userName"
+                        id="email"
                         aria-describedby="emailHelp"
                       />
                     </div>
@@ -754,6 +760,7 @@
                         >Contact number</label
                       >
                       <input
+                        name="number"
                         type="number"
                         class="form-control"
                         placeholder="91XXXXXXXXXX"
@@ -766,10 +773,10 @@
                         >Describe yourself</label
                       >
                       <textarea
-                        name=""
+                        name="describe"
                         placeholder="describe"
                         class="form-control"
-                        id=""
+                        id="describe"
                         rows="4"
                       ></textarea>
                     </div>
